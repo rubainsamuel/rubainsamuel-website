@@ -1,0 +1,25 @@
+baseURL = 'https://rubainsamuel.com/'
+languageCode = 'en-us'
+title = 'Rubain Samuel'
+theme = 'paper'
+
+[params]
+  color = 'linen'
+  twitter = ''
+  github = ''
+  linkedin = 'rubainsamuel'
+  description = 'Marketing strategist. Writing about marketing, business, and technology.'
+
+[menu]
+  [[menu.main]]
+    name = 'Writing'
+    url = '/posts/'
+    weight = 1
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 3

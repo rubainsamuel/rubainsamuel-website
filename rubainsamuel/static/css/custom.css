@@ -14,13 +14,11 @@ body {
   color: var(--color-dark) !important;
 }
 
-/* Unified background — no separate header colour */
 header, .bg-dark-green, .cover-main,
 section.bg-dark-green, nav {
   background-color: var(--color-bg) !important;
 }
 
-/* Site title and nav links */
 header a, header nav a {
   color: var(--color-dark) !important;
   font-family: 'DM Sans', sans-serif !important;
@@ -32,13 +30,20 @@ header nav a:hover {
   color: var(--color-terracotta) !important;
 }
 
-/* Hero title — same font as body, slightly larger */
+/* Reduce gap between title and body */
+.cover-main, section.cover-main {
+  padding-top: 2rem !important;
+  padding-bottom: 0.5rem !important;
+  min-height: unset !important;
+}
+
 .cover-main h1, h1 {
   font-family: 'DM Sans', sans-serif !important;
   font-weight: 400 !important;
   font-size: 2rem !important;
   color: var(--color-dark) !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;
 }
 
 h2, h3, h4, h5, h6 {
@@ -53,12 +58,18 @@ p, li, blockquote {
   color: var(--color-dark) !important;
 }
 
+/* Links — terracotta */
 a {
-  color: var(--color-dark) !important;
+  color: var(--color-terracotta) !important;
 }
 
 a:hover {
-  color: var(--color-terracotta) !important;
+  color: var(--color-dark) !important;
+}
+
+/* Keep nav links dark green */
+header a, header nav a {
+  color: var(--color-dark) !important;
 }
 
 .bg-near-white, .bg-white {

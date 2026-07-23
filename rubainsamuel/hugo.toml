@@ -1,14 +1,10 @@
 baseURL = 'https://rubainsamuel.com/'
 languageCode = 'en-us'
 title = 'Rubain Samuel'
-
-[module]
-  [[module.imports]]
-    path = "github.com/theNewDynamic/gohugo-theme-ananke"
+theme = 'ananke'
 
 [params]
   description = 'Marketing strategist. Writing about marketing, business, and technology.'
-  linkedin = 'rubainsamuel'
 
 [menu]
   [[menu.main]]

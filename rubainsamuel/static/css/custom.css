@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 :root {
   --color-bg: #F6F4E8;
   --color-header: #1D3124;
@@ -7,10 +9,19 @@
 
 body {
   background-color: var(--color-bg) !important;
+  font-family: 'DM Serif Display', serif !important;
 }
 
 header, .bg-dark-green, nav {
   background-color: var(--color-header) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif !important;
+}
+
+p, li, blockquote {
+  font-family: 'DM Serif Display', serif !important;
 }
 
 a {
@@ -21,12 +32,10 @@ a:hover {
   color: var(--color-accent) !important;
 }
 
-/* Content area background */
 .bg-near-white, .bg-white {
   background-color: var(--color-bg) !important;
 }
 
-/* Cover/hero section */
 .cover-main {
   background-color: var(--color-header) !important;
 }

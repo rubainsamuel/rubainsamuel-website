@@ -5,6 +5,9 @@ theme = 'ananke'
 
 [params]
   description = 'Marketing strategist. Writing about marketing, business, and technology.'
+  background_color_class = "bg-dark-green"
+  featured_image_background = "#1D3124"
+  body_classes = "avenir bg-near-white"
 
 [menu]
   [[menu.main]]
@@ -15,7 +18,6 @@ theme = 'ananke'
     name = 'About'
     url = '/about/'
     weight = 2
-  [[menu.main]]
-    name = 'Contact'
-    url = '/contact/'
-    weight = 3
+
+[params.custom_css]
+  custom_css = ["css/custom.css"]

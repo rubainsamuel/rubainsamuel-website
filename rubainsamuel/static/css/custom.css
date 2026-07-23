@@ -1,0 +1,32 @@
+:root {
+  --color-bg: #F6F4E8;
+  --color-header: #1D3124;
+  --color-accent: #BACEC1;
+  --color-highlight: #E59560;
+}
+
+body {
+  background-color: var(--color-bg) !important;
+}
+
+header, .bg-dark-green, nav {
+  background-color: var(--color-header) !important;
+}
+
+a {
+  color: var(--color-highlight) !important;
+}
+
+a:hover {
+  color: var(--color-accent) !important;
+}
+
+/* Content area background */
+.bg-near-white, .bg-white {
+  background-color: var(--color-bg) !important;
+}
+
+/* Cover/hero section */
+.cover-main {
+  background-color: var(--color-header) !important;
+}

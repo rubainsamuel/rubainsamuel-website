@@ -1,6 +1,6 @@
 [build]
   base    = "rubainsamuel"
-  publish = "rubainsamuel/public"
+  publish = "public"
   command = "hugo --minify"
 
 [build.environment]

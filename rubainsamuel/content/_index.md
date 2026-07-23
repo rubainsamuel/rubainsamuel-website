@@ -1,5 +1,5 @@
 ---
-title: "Rubain Samuel"
+title: "Hi, I'm Rubain Samuel"
 ---
 
 I'm a marketing strategy leader. I write about what most people are too busy to think through properly.

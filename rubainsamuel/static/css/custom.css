@@ -11,6 +11,7 @@ body {
   background-color: var(--color-bg) !important;
   font-family: 'DM Sans', sans-serif !important;
   font-weight: 300 !important;
+  color: var(--color-dark) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,33 +22,38 @@ h1, h2, h3, h4, h5, h6 {
 p, li, blockquote {
   font-family: 'DM Sans', sans-serif !important;
   font-weight: 300 !important;
+  color: var(--color-dark) !important;
 }
 
-/* Header/nav bar — terracotta */
-header, .bg-dark-green, nav {
+/* Nav bar — terracotta strip only */
+header {
   background-color: var(--color-header) !important;
 }
 
 /* Site title and nav links — dark green */
 header a, header nav a {
   color: var(--color-dark) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 400 !important;
 }
 
 header nav a:hover {
   color: var(--color-bg) !important;
 }
 
-/* Hero section stays dark green */
-.cover-main {
+/* Hero section — dark green */
+.cover-main, section.bg-dark-green {
   background-color: var(--color-dark) !important;
 }
 
+/* Hero title — off white */
 .cover-main h1 {
   color: var(--color-bg) !important;
   font-weight: 400 !important;
+  font-family: 'DM Serif Display', serif !important;
 }
 
-/* Body links — dark green */
+/* Body links */
 a {
   color: var(--color-dark) !important;
 }

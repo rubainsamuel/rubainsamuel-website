@@ -4,7 +4,6 @@ title = 'Rubain Samuel'
 theme = 'ananke'
 
 [params]
-  omit_header_text = true
   custom_css = ["css/custom.css"]
 
 [menu]

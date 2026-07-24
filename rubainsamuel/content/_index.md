@@ -2,7 +2,7 @@
 title: ""
 ---
 
-## Hi, I'm Rubain.
+## Hi, I'm Rubain
 
 I'm a marketing strategy leader. I write about what most people are too busy to think through properly.
 

@@ -85,3 +85,16 @@ footer {
 footer a {
   color: var(--color-dark) !important;
 }
+
+/* Footer — pin to bottom, smaller text */
+footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  font-size: 0.65rem !important;
+  padding: 0.5rem 1rem !important;
+}
+
+main {
+  padding-bottom: 3rem !important;
+}

@@ -1,11 +1,15 @@
 ---
-title: ""
+title: "About"
 ---
 
-I'm Rubain Samuel — a marketing strategist with fifteen years across product marketing, GTM, CX, and AI implementation. I've worked with consulting firms, startups, and research organisations.
+I'm Rubain Samuel, a marketing strategist with over fifteen years of experience across product marketing, GTM, customer experience, and AI implementation.
 
-Curiosity is the through-line. Whether I'm designing a lead gen framework, building a persona, or implementing an AI solution — I want to understand things properly, not just well enough.
+Before marketing, I trained as an engineer. I think that still shapes how I approach problems today. I like understanding how things work, taking them apart, and finding better ways to put them back together.
 
-This is where that thinking lives.
+Outside of work, I'm usually learning something or building something new. Sometimes in the workshop, sometimes on a computer. The medium changes, but the motivation doesn't. I'm happiest when I'm learning by making.
+
+Writing is part of that process. I learn by building, and I understand by writing.
+
+This website is where I collect the ideas that emerge along the way.
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/rubain-samuel).

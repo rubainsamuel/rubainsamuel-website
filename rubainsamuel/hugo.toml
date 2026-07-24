@@ -4,9 +4,7 @@ title = 'Rubain Samuel'
 theme = 'ananke'
 
 [params]
-  description = 'Marketing strategist. Writing about marketing, business, and technology.'
-  background_color_class = "bg-dark-green"
-  body_classes = "avenir bg-near-white"
+  omit_header_text = true
   custom_css = ["css/custom.css"]
 
 [menu]

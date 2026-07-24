@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: ""
 ---
 
 I'm Rubain Samuel — a marketing strategist with fifteen years across product marketing, GTM, CX, and AI implementation. I've worked with consulting firms, startups, and research organisations.
@@ -8,4 +8,4 @@ Curiosity is the through-line. Whether I'm designing a lead gen framework, build
 
 This is where that thinking lives.
 
-You can find me on [LinkedIn](https://linkedin.com/in/rubainsamuel).
+You can find me on [LinkedIn](https://www.linkedin.com/in/rubain-samuel).

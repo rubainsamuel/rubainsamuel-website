@@ -75,3 +75,13 @@ header a, header nav a {
 b, strong {
   font-weight: 500 !important;
 }
+
+/* Footer */
+footer {
+  background-color: var(--color-bg) !important;
+  color: var(--color-dark) !important;
+}
+
+footer a {
+  color: var(--color-dark) !important;
+}

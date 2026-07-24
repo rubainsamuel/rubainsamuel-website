@@ -21,7 +21,7 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb2-m pb2-l {{ .Site.Params.background_color_class | compare.Default "bg-near-white" }}">
+    <div class="pb0-m pb0-l {{ .Site.Params.background_color_class | compare.Default "bg-near-white" }}">
       {{ partials.Include "site-navigation.html" . }}
       {{ $header_section_class := .Param "header_section_class" | compare.Default "tc-l pv3 ph3 ph4-ns" }}
       <div class="{{ $header_section_class }}">

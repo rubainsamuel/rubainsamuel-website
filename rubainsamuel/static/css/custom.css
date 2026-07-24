@@ -98,3 +98,7 @@ footer {
 main {
   padding-bottom: 3rem !important;
 }
+
+footer, footer p, footer a, footer span {
+  font-size: 0.65rem !important;
+}

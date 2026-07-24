@@ -102,3 +102,10 @@ main {
 footer, footer p, footer a, footer span {
   font-size: 0.65rem !important;
 }
+
+/* Terracotta underline on site title */
+nav a.f3 {
+  border-bottom: 1.5px solid #E59560 !important;
+  padding-bottom: 2px !important;
+  text-decoration: none !important;
+}

@@ -1,5 +1,5 @@
 baseURL = 'https://rubainsamuel.com/'
-languageCode = 'en-us'
+locale = "en-US"
 title = 'Rubain Samuel'
 theme = 'ananke'
 

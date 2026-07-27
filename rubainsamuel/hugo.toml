@@ -1,10 +1,11 @@
 baseURL = 'https://rubainsamuel.com/'
-locale = "en-US"
+locale = 'en-US'
 title = 'Rubain Samuel'
 theme = 'ananke'
 
 [params]
-  custom_css = ["css/custom.css"]
+  [params.ananke]
+    custom_css = ["css/custom.css"]
 
 [menu]
   [[menu.main]]

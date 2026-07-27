@@ -6,7 +6,6 @@ tags: ["AI", "strategy", "leadership", "talent"]
 draft: false
 ---
 
-AI can remove repetitive work. But what happens when that work was also where people learned to think?
 
 For much of my career, the path from junior employee to experienced decision-maker has followed a familiar, if imperfect, pattern.
 

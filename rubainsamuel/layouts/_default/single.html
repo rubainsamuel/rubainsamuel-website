@@ -22,7 +22,7 @@
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>
-      {{ with .Params.description }}<p class="f4 fw3 mt2 mb2 dark-green lh-copy measure-wide i">{{ . }}</p>{{ end }}
+      {{ with .Params.description }}<p class="f4 fw3 mt2 mb2 dark-green lh-copy measure-wide">{{ . }}</p>{{ end }}
       {{ with .Params.author | compare.Default .Site.Params.author }}
       <p class="tracked">
         {{- if compare.Eq $page.Language "de" "en" "es" "fr" "it" "no" "pt" -}}

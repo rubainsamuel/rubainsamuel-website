@@ -1,6 +1,6 @@
 ---
 title: "How Will Tomorrow's Leaders Develop Strategic Judgment If AI Does the Work They Once Learned From?"
-date: 2026-07-24
+date: 2026-07-28
 description: "AI can remove repetitive work. But what happens when that work was also where people learned to think?"
 tags: ["AI", "strategy", "leadership", "talent"]
 draft: false

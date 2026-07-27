@@ -109,3 +109,21 @@ nav a.f3 {
   padding-bottom: 2px !important;
   text-decoration: none !important;
 }
+
+/* Tags styling */
+.tags a, a[href*="/tags/"] {
+  display: inline-block !important;
+  padding: 4px 12px !important;
+  margin: 4px 6px 4px 0 !important;
+  border: 1px solid #1D3124 !important;
+  border-radius: 20px !important;
+  font-size: 0.75rem !important;
+  color: #1D3124 !important;
+  text-decoration: none !important;
+  letter-spacing: 0.03em !important;
+}
+
+.tags a:hover, a[href*="/tags/"]:hover {
+  background-color: #1D3124 !important;
+  color: #F6F4E8 !important;
+}

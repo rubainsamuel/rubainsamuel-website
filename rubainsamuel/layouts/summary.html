@@ -2,7 +2,7 @@
 <div class="w-100 mb4">
   <div class="mb3 pa4">
     {{ if $show_date }}
-      <time class="f6 db dark-green mb1" {{ fmt.Printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safe.HTMLAttr }}>
+      <time class="f6 db mb1" style="color: #1D3124;" {{ fmt.Printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safe.HTMLAttr }}>
         {{- .Date | time.Format (compare.Default "January 2, 2006" .Site.Params.date_format) -}}
       </time>
     {{ end }}

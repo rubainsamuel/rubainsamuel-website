@@ -2,6 +2,7 @@ baseURL = 'https://rubainsamuel.com/'
 locale = 'en-US'
 title = 'Rubain Samuel'
 theme = 'ananke'
+buildFuture = true
 
 [params]
   [params.ananke]

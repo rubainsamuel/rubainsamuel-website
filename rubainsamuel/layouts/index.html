@@ -1,23 +1,27 @@
 {{ define "main" }}
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
-    {{ .Content }}
-  </article>
+  <div class="w-100 w-60-l center ph3 ph4-ns">
 
-  {{ $mainSections := collections.Slice "posts" }}
-  {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
-  {{ $section_count := len $section }}
+    <article class="pv4 f4 tc lh-copy nested-links" style="color: #1D3124;">
+      {{ .Content }}
+    </article>
 
-  {{ if compare.Ge $section_count 1 }}
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      <h2 class="f4 fw4 mb4" style="color: #1D3124; border-bottom: 1px solid #BACEC1; padding-bottom: 0.5rem;">Recent Writing</h2>
-      <section class="w-100 mw8">
-        {{ $n_posts := 3 }}
-        {{ range (collections.First $n_posts $section) }}
-          <div class="w-100 mb4">
-            {{ .Render "summary" }}
-          </div>
-        {{ end }}
-      </section>
-    </div>
-  {{ end }}
+    {{ $mainSections := collections.Slice "posts" }}
+    {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
+    {{ $section_count := len $section }}
+
+    {{ if compare.Ge $section_count 1 }}
+      <div class="w-100 pv3">
+        <h2 class="f4 fw4 mb4" style="color: #1D3124; border-bottom: 1px solid #BACEC1; padding-bottom: 0.5rem;">Recent Writing</h2>
+        <section class="w-100">
+          {{ $n_posts := 3 }}
+          {{ range (collections.First $n_posts $section) }}
+            <div class="w-100 mb4">
+              {{ .Render "summary" }}
+            </div>
+          {{ end }}
+        </section>
+      </div>
+    {{ end }}
+
+  </div>
 {{ end }}

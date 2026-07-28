@@ -1,18 +1,16 @@
 {{ $show_date := partials.Include "func/ShowDate.html" . }}
-<div class="w-100 mb4">
-  <div class="mb3 pa4">
-    {{ if $show_date }}
-      <time class="f6 db mb1" style="color: #1D3124;" {{ fmt.Printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safe.HTMLAttr }}>
-        {{- .Date | time.Format (compare.Default "January 2, 2006" .Site.Params.date_format) -}}
-      </time>
-    {{ end }}
-    <h2 class="f3 near-black mt1 mb1">
-      <a href="{{ .RelPermalink }}" class="link dim" style="color: #1D3124;">
-        {{ .Title }}
-      </a>
-    </h2>
-    {{ with .Params.description }}
-      <p class="f5 fw3 mt1 mb0" style="color: #1D3124;">{{ . }}</p>
-    {{ end }}
-  </div>
+<div class="w-100 mb3 pb3" style="border-bottom: 1px solid #e8e5de;">
+  {{ if $show_date }}
+    <time class="f6 db mb1" style="color: #1D3124;" {{ fmt.Printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safe.HTMLAttr }}>
+      {{- .Date | time.Format (compare.Default "January 2, 2006" .Site.Params.date_format) -}}
+    </time>
+  {{ end }}
+  <h2 class="f3 mt1 mb1" style="font-family: 'DM Sans', sans-serif; font-weight: 400;">
+    <a href="{{ .RelPermalink }}" class="link dim" style="color: #E59560;">
+      {{ .Title }}
+    </a>
+  </h2>
+  {{ with .Params.description }}
+    <p class="f5 fw3 mt1 mb2" style="color: #1D3124;">{{ . }}</p>
+  {{ end }}
 </div>

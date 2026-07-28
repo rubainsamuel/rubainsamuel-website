@@ -39,7 +39,7 @@ That second output is difficult to quantify. It accumulates slowly, appears unev
 
 This may be why the role of entry-level work in developing people is so easy to overlook. Organisations often think of junior employees primarily as capacity: people who perform lower-complexity tasks so that experienced colleagues can focus elsewhere. But early-career work is not simply a layer in the division of labour. It is also part of the mechanism through which organisations create future expertise.
 
-The World Economic Forum's 2026 [report](https://www.weforum.org/publications/artificial-intelligence-and-the-future-of-entry-level-work-a-framework-for-safeguarding-and-reinventing-early-career-pathways/) on AI and entry-level work makes this connection explicit. It treats early-career roles not merely as jobs to be filled, but as pathways through which people gain practical experience and organisations develop future capability. The report estimates that 37% of young workers globally are employed in occupations with medium-to-high exposure to AI-driven task change. It also argues that organisations may need to manage a tension between short-term efficiency, work quality and longer-term capability-building.
+The [World Economic Forum's 2026 report](https://www.weforum.org/publications/artificial-intelligence-and-the-future-of-entry-level-work-a-framework-for-safeguarding-and-reinventing-early-career-pathways/) on AI and entry-level work makes this connection explicit. It treats early-career roles not merely as jobs to be filled, but as pathways through which people gain practical experience and organisations develop future capability. The report estimates that 37% of young workers globally are employed in occupations with medium-to-high exposure to AI-driven task change. It also argues that organisations may need to manage a tension between short-term efficiency, work quality and longer-term capability-building.
 
 That tension is easy to underestimate because its effects unfold over different timescales. The productivity gain arrives now. The capability gap, if one develops, may take years to become visible.
 
@@ -69,7 +69,7 @@ As AI becomes more capable, human judgment becomes more important. Someone must 
 
 Yet the experiences through which people acquire that judgment may be precisely the experiences being automated.
 
-David S. Duncan makes a closely related argument in Harvard Business Review. Experienced employees can benefit greatly from AI because they already possess the expertise needed to assess its output. Junior employees, by contrast, may struggle to recognise whether an answer is sound, where it is weak or how it should be improved. The technology increases the value of judgment while removing some of the messy work that historically helped build it.
+David S. Duncan makes a closely related argument in [Harvard Business Review](https://store.hbr.org/product/how-do-workers-develop-good-judgment-in-the-ai-era). Experienced employees can benefit greatly from AI because they already possess the expertise needed to assess its output. Junior employees, by contrast, may struggle to recognise whether an answer is sound, where it is weak or how it should be improved. The technology increases the value of judgment while removing some of the messy work that historically helped build it.
 
 AI may therefore be most powerful in the hands of people who already know what good looks like.
 
@@ -85,7 +85,7 @@ We may be asking new employees to become evaluators before they have had suffici
 
 This concern predates generative AI.
 
-In 1983, human-factors researcher Lisanne Bainbridge wrote about the "ironies of automation." As systems take over routine operations, people are left responsible for supervising them and intervening when something unusual occurs. The irony is that those exceptional situations demand the greatest skill, while automation reduces the routine involvement through which that skill is developed and maintained.
+In 1983, human-factors researcher Lisanne Bainbridge wrote about the "[ironies of automation](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf)." As systems take over routine operations, people are left responsible for supervising them and intervening when something unusual occurs. The irony is that those exceptional situations demand the greatest skill, while automation reduces the routine involvement through which that skill is developed and maintained.
 
 The pattern has traditionally been discussed in fields such as aviation and industrial process control. Knowledge work is different, but the underlying tension is recognisable: the system handles more of the ordinary work, while the human remains responsible for the situations that require the most judgment.
 
@@ -95,7 +95,7 @@ An AI system may draft the market analysis, but someone must still decide whethe
 
 These are not finishing touches. They are the work.
 
-More recent research on the "ironies of generative AI" identifies a similar shift from production to evaluation. Evaluating an AI-generated answer can itself be demanding, particularly when the user lacks enough underlying expertise to recognise subtle errors or inappropriate reasoning.
+More recent research on the "[ironies of generative AI](https://arxiv.org/abs/2402.11364)" identifies a similar shift from production to evaluation. Evaluating an AI-generated answer can itself be demanding, particularly when the user lacks enough underlying expertise to recognise subtle errors or inappropriate reasoning.
 
 It is easier to edit an answer when you could have produced a credible answer yourself. Without that foundation, evaluation can become little more than choosing between outputs that sound convincing.
 
@@ -111,7 +111,7 @@ Previous generations having endured a task is not a reason to preserve it.
 
 AI may, in fact, allow people to learn faster. A junior employee who once spent three days collecting information might now spend those days comparing interpretations, testing assumptions and discussing implications. They may encounter more problems, complete more learning cycles and gain access to expertise that was previously difficult to reach.
 
-There is evidence for this more optimistic possibility. In a study of 5,179 customer-support agents, researchers Erik Brynjolfsson, Danielle Li and Lindsey R. Raymond found that access to a generative AI assistant increased productivity by 14% on average and by 34% among novice and low-skilled workers. Their findings suggest that the system helped transmit some of the practices of stronger performers, enabling newer employees to become effective more quickly.
+There is evidence for this more optimistic possibility. In a [study](https://www.nber.org/papers/w31161) of 5,179 customer-support agents, researchers Erik Brynjolfsson, Danielle Li and Lindsey R. Raymond found that access to a generative AI assistant increased productivity by 14% on average and by 34% among novice and low-skilled workers. Their findings suggest that the system helped transmit some of the practices of stronger performers, enabling newer employees to become effective more quickly.
 
 The finding complicates any simple story about AI bypassing learning. Under the right conditions, it may accelerate part of the learning curve instead.
 
@@ -139,6 +139,12 @@ That distinction may matter more than the percentage of the task completed by th
 
 The better question is not, "Who produced the output?" It is, "Who did the interpreting?"
 
+A [Microsoft Research study](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) involving 319 knowledge workers adds another layer to this concern. The researchers found that higher confidence in GenAI was associated with less reported critical thinking, while greater confidence in one’s own ability was associated with more. They also found that AI shifted critical effort away from producing material and towards verifying, integrating and overseeing its output. Because the study examined participants’ self-reported behaviour rather than directly measuring long-term capability, its findings should be treated cautiously.
+
+Even so, the result points to a possible vulnerability. People who do not yet possess a strong internal standard may find it harder to question a fluent, plausible answer, and may therefore be more likely to defer to it.
+
+Experienced users already have a standard against which to compare the output. Beginners are still trying to build one.
+
 ## The leadership-pipeline problem arrives late
 
 The quality of AI-assisted junior work may not reveal whether meaningful development is taking place.
@@ -159,6 +165,14 @@ But if fewer people pass through the experiences that created it, who replaces t
 
 This is the risk I find most consequential. An organisation could become more efficient at producing work while becoming less effective at developing experienced people capable of leading it.
 
+The imbalance might remain hidden for years. Savings appear in the present, while a shortage of judgment appears in the future. By the time it becomes visible (in weaker decisions, shallow leadership benches or dependence on a small group of senior people) the apprenticeship that once replenished the system may already have eroded.
+
+Emerging labour-market research is beginning to examine whether AI adoption disproportionately affects junior employment, but the evidence is not yet settled. One recent [working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555), using résumé and job-posting data from US firms, finds that junior employment declines relative to senior employment following GenAI adoption. Another [working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6787638) argues that the apparent decline in early-career hiring is partly explained by the expansion of remote work, which makes junior employees more difficult and costly to supervise and develop.
+
+That uncertainty matters. We should not present the collapse of entry-level work as inevitable, or attribute every decline in junior hiring to AI.
+
+But organisations do not need certainty about job displacement to confront the capability question. Even if AI does not eliminate entry-level jobs, it may still remove enough of their developmental content to weaken the pathway from junior employee to experienced leader.
+
 ## Do not protect the task. Protect the learning loop.
 
 The answer cannot be to preserve obsolete tasks merely because they once formed part of someone's career journey. There is little value in keeping inefficient work alive as a form of corporate hazing. Instead, organisations need to understand what made certain experiences developmental.
@@ -170,6 +184,8 @@ Once those mechanisms are understood, they can be redesigned rather than acciden
 Most importantly, people need decisions they genuinely own. The consequences do not have to threaten the business, but they must be real enough to create accountability. Simulations can teach principles; experience teaches weight.
 
 Managers also have a different role to play. In the past, an experienced colleague could improve a junior person's work simply by correcting it. In an AI-rich workplace, their more valuable contribution may be to make their reasoning observable: what they noticed first, which assumption worried them, what they ignored and what caused them to change their mind.
+
+[McKinsey’s](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/building-expertise-in-the-age-of-ai-who-trains-the-next-generation) recent work on talent development argues that expertise in the AI era will require organisations to connect work design, learning, knowledge management and coaching rather than treating them as separate activities. It recommends mechanisms such as “attempt-then-check,” in which people engage with a problem before comparing their reasoning with AI or expert input.
 
 The principle I keep returning to is this: Do not protect the task. Protect the learning loop.
 

@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="w-100 w-60-l center ph3 ph4-ns">
     <div class="pv4">
-      <h2 class="f2 fw4 mb4" style="font-family: 'DM Serif Display', serif; color: #1D3124;">Collected Essays</h2>
+      <h2 class="f2 fw4 mb4" style="font-family: 'DM Serif Display', serif; color: #1D3124;">Ideas and Explorations</h2>
       <section class="w-100">
         {{ range .Pages.ByDate.Reverse }}
           {{ .Render "summary" }}

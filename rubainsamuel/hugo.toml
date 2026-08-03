@@ -5,6 +5,7 @@ theme = 'ananke'
 buildFuture = true
 
 [params]
+  show_reading_time = true
   favicon = "/favicon.svg"
   [params.ananke]
     custom_css = ["css/custom.css"]

@@ -17,3 +17,6 @@ buildFuture = true
     name = 'About'
     url = '/about/'
     weight = 2
+
+[params]
+  favicon = "/favicon.svg"

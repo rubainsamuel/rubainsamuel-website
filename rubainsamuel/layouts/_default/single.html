@@ -56,8 +56,7 @@
           {{ $readingTime = math.Ceil $readingTime }}
           {{ $readingTime = int $readingTime }}
         {{ end }}
-        <span class="f6 mv4 dib tracked"> - {{ lang.Translate "readingTime" $readingTime }} </span>
-        <span class="f6 mv4 dib tracked"> - {{ lang.Translate "wordCount" .WordCount }} </span>
+        <span class="f6 mv4 dib tracked" style="color: #1D3124;"> | {{ $readingTime }} min read</span>
       {{ end }}
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | compare.Default "serif"}} f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }} {{ compare.Conditional (compare.Eq $.Site.Language.Direction "rtl") "pl4-l" "pr4-l" }} {{ if $needs_aside }}w-two-thirds-l{{ else }}w-100-l{{ end }}">

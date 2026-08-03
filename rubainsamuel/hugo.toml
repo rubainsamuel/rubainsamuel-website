@@ -5,6 +5,7 @@ theme = 'ananke'
 buildFuture = true
 
 [params]
+  favicon = "/favicon.svg"
   [params.ananke]
     custom_css = ["css/custom.css"]
 
@@ -17,6 +18,3 @@ buildFuture = true
     name = 'About'
     url = '/about/'
     weight = 2
-
-[params]
-  favicon = "/favicon.svg"

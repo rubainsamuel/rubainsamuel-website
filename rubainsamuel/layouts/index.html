@@ -7,17 +7,15 @@
 
     {{ $mainSections := collections.Slice "posts" }}
     {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
-    {{ $section_count := len $section }}
+    {{ $sorted := sort $section "Date" "desc" }}
+    {{ $section_count := len $sorted }}
 
     {{ if compare.Ge $section_count 1 }}
       <div class="w-100 pv3">
         <h2 class="f4 fw4 mb4" style="color: #1D3124; border-bottom: 1px solid #BACEC1; padding-bottom: 0.5rem;">Recent Writing</h2>
         <section class="w-100">
-          {{ $n_posts := 3 }}
-          {{ range (collections.First $n_posts $section) }}
-            <div class="w-100 mb4">
-              {{ .Render "summary" }}
-            </div>
+          {{ range (collections.First 3 $sorted) }}
+            {{ .Render "summary" }}
           {{ end }}
         </section>
       </div>

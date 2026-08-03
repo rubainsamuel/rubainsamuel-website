@@ -12,7 +12,7 @@ buildFuture = true
 
 [menu]
   [[menu.main]]
-    name = 'Writing'
+    name = 'Essays'
     url = '/posts/'
     weight = 1
   [[menu.main]]

@@ -19,7 +19,7 @@ Over time, something changes. You start to recognise which numbers deserve suspi
 
 Eventually, we call this judgment.
 
-Now AI is beginning to perform many of the activities through which that judgment was traditionally developed. It can synthesize research, interrogate datasets, summarise interviews, construct scenarios and produce a credible first draft of a recommendation. Work that once took a junior employee several days can increasingly be completed in hours or minutes.
+Now AI is beginning to perform many of the activities through which that judgment was traditionally developed. It can synthesise research, interrogate datasets, summarise interviews, construct scenarios and produce a credible first draft of a recommendation. Work that once took a junior employee several days can increasingly be completed in hours or minutes.
 
 The familiar promise is that AI will take care of repetitive work and free people to focus on creativity, critical thinking, decision-making and strategy. It is an attractive proposition and, in many cases, a real one. Removing tedious work is not something we should resist simply because previous generations had to endure it. But the promise rests on an assumption that deserves closer examination: that people can move directly into higher-order work without first passing through the experiences that helped previous generations learn how to do it.
 
@@ -153,7 +153,7 @@ For some time, companies can rely on experienced practitioners who developed the
 
 But if fewer people accumulate the experiences that created that judgment, the leadership pipeline begins to change. An organisation could become steadily more efficient at producing work while becoming less effective at developing the people capable of leading it.
 
-The imbalance could remain hidden for years. The productivity gains arrive now, but any shortage of judgment arrives later, possibly only when experienced leaders begin to leave and there are fewer people ready to replace them.
+The imbalance could remain hidden for years. The productivity gains arrive now, but any deficit in judgment may surface much later, possibly only when experienced leaders begin to leave and there are fewer people ready to replace them.
 
 And this problem does not require entry-level jobs to disappear. Even if organisations continue hiring junior employees, AI may remove enough of the developmental content of those roles to weaken the pathway from beginner to experienced leader.
 

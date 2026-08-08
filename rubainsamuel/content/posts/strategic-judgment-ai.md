@@ -9,7 +9,7 @@ draft: false
 
 For much of my career, the path from junior employee to experienced decision-maker has followed a familiar, if imperfect, pattern.
 
-You start with the work closest to the ground, and often the messiest. You clean datasets, reconcile numbers that refuse to agree, trawl through research, update intimidating-looking Excel models, fix slides and spend longer than seems reasonable making a presentation coherent.
+You start with the work closest to the ground and often the messiest. You clean datasets, reconcile numbers that refuse to agree, trawl through research, inherit intimidating Excel models you are slightly afraid to break, fix slides and spend far longer than seems reasonable getting a presentation into shape.
 
 You spend hours on an analysis that an experienced colleague seems able to understand in minutes. You follow hypotheses that lead nowhere. You present what feels like a solid answer, only to discover that you have misunderstood the question.
 
@@ -23,7 +23,7 @@ Now AI is beginning to perform many of the activities through which that judgmen
 
 The familiar promise is that AI will take care of repetitive work and free people to focus on creativity, critical thinking, decision-making and strategy. It is an attractive proposition and, in many cases, a real one. Removing tedious work is not something we should resist simply because previous generations had to endure it. But the promise rests on an assumption that deserves closer examination: that people can move directly into higher-order work without first passing through the experiences that helped previous generations learn how to do it.
 
-That leaves us with a harder question: How will tomorrow's leaders develop strategic judgment through experience if AI increasingly does the early-career work through which that experience was gained?
+That leaves us with a harder question: How will tomorrow’s leaders develop strategic judgment if AI increasingly does the work they once learned from?
 
 ## The work produced more than the deliverable
 
@@ -31,11 +31,9 @@ I trained as an engineer before moving into marketing strategy, and that backgro
 
 Early-career analytical work has always produced at least two things. The first is visible: a report, model, presentation, forecast or recommendation. The second is less visible: a person who understands the problem slightly better than they did before.
 
-A junior marketer analysing campaign performance may be producing a report, but they are also learning how attribution can mislead. A consultant constructing a market model is not simply filling a spreadsheet; they are discovering which assumptions change the answer and which merely create an appearance of precision. A product manager reading customer interviews begins to hear the gap between what people say and what they repeatedly do. An analyst reconciling inconsistent figures develops an instinct for when not to trust a perfectly formatted dashboard.
+A junior marketer analysing campaign performance learns how attribution can mislead. A consultant building a market model discovers which assumptions materially change the answer and which simply create an appearance of precision. The work produces a deliverable. It also produces a slightly more experienced person.
 
-The assignment produces a deliverable. It also produces a slightly more experienced person.
-
-That second output is difficult to quantify. It accumulates slowly, appears unevenly and rarely has a line in an automation business case. When a company evaluates a new AI system, it can calculate the hours saved far more easily than the developmental value being removed.
+That second outcome is much harder to quantify. When a company evaluates an AI system, it can calculate the hours saved far more easily than the learning opportunities that may disappear with the task.
 
 This may be why the role of entry-level work in developing people is so easy to overlook. Organisations often think of junior employees primarily as capacity: people who perform lower-complexity tasks so that experienced colleagues can focus elsewhere. But early-career work is not simply a layer in the division of labour. It is also part of the mechanism through which organisations create future expertise.
 
@@ -47,15 +45,13 @@ That tension is easy to underestimate because its effects unfold over different 
 
 We often speak about experience as though it were simply time served. It is not. People can repeat the same task for years without developing particularly good judgment.
 
-Experience becomes valuable when someone moves repeatedly through a learning loop: observing a situation, forming an interpretation, making a decision, encountering the consequences and revising their understanding. Much of early-career work creates these loops almost accidentally.
+Experience becomes valuable when someone moves repeatedly through a learning loop: observing a situation, forming an interpretation, making a decision, encountering the consequences and revising their understanding. Early-career work has traditionally created many of these loops, whether organisations explicitly designed them that way or not.
 
 You build an analysis and discover that the source data is unreliable. You recommend a campaign and learn that a strong proposition cannot rescue poor timing. You forecast customer behaviour and watch real customers ignore the logic of the model. You present what appears to be a clear answer, only for someone more experienced to ask the one question you failed to consider.
 
-None of these moments is glamorous. Some are tedious; others are uncomfortable. But together they train a person to notice what a clean explanation leaves out.
+None of these moments is glamorous. Some are tedious; others are uncomfortable. But together they train a person to notice what a ready-made explanation leaves out.
 
 This matters particularly in strategy, where the most consequential decisions rarely arrive with complete evidence. Strategic judgment is not simply the ability to analyse information. It includes knowing which problem is worth analysing, which uncertainty matters, which pattern is meaningful and which is merely convenient. It means recognising second-order effects, weighing trade-offs and making a defensible choice when the evidence remains incomplete.
-
-Those capabilities are not acquired entirely from studying finished answers. They develop through repeated contact with unfinished problems.
 
 AI, however, is exceptionally good at making work look finished. It produces coherent summaries, structured arguments and polished recommendations, often before a junior employee has had time to form an independent view. The output may be useful, even excellent, but its fluency can conceal the uncertainty, judgment calls and incomplete reasoning beneath it.
 
@@ -63,17 +59,13 @@ An experienced person is more likely to see what the answer leaves unresolved. T
 
 ## The judgment paradox
 
-This creates what I think of as the judgment paradox.
+This creates a paradox. As AI becomes more capable, human judgment becomes more valuable: someone still has to identify missing context, challenge an implausibly confident conclusion and recognise when the technically correct answer is strategically wrong. Yet some of the experiences through which that judgment develops are precisely the ones being automated.
 
-As AI becomes more capable, human judgment becomes more important. Someone must still decide whether an AI-generated analysis is accurate, relevant and appropriate. Someone must identify missing context, challenge an implausibly certain conclusion and recognise when the technically correct answer is strategically wrong.
-
-Yet the experiences through which people acquire that judgment may be precisely the experiences being automated.
-
-David S. Duncan makes a closely related argument in [Harvard Business Review](https://store.hbr.org/product/how-do-workers-develop-good-judgment-in-the-ai-era). Experienced employees can benefit greatly from AI because they already possess the expertise needed to assess its output. Junior employees, by contrast, may struggle to recognise whether an answer is sound, where it is weak or how it should be improved. The technology increases the value of judgment while removing some of the messy work that historically helped build it.
+David S. Duncan makes a closely related argument in [Harvard Business Review](https://store.hbr.org/product/how-do-workers-develop-good-judgment-in-the-ai-era). Experienced employees can benefit greatly from AI because they already possess the expertise needed to assess its output. Junior employees, by contrast, may struggle to recognise whether an answer is sound, where it is weak or how it should be improved.
 
 AI may therefore be most powerful in the hands of people who already know what good looks like.
 
-An experienced strategist can use it to explore alternatives more quickly because they have an internal model against which to test the responses. They know which questions to ask, which answers to distrust and what the system is likely to have missed. Their expertise does not disappear when the task is accelerated; it becomes leverage.
+An experienced strategist can use it to explore alternatives more quickly because they have an internal model against which to test the responses. They know which questions to ask, which answers to distrust and what the system is likely to have missed.
 
 The harder question is how the next generation will build an internal model of its own.
 
@@ -91,7 +83,7 @@ The pattern has traditionally been discussed in fields such as aviation and indu
 
 The human role is moving from producing work towards supervising, interpreting and correcting machine-produced output. The ordinary case is increasingly handled by the system; the person is expected to add value when the situation is ambiguous, exceptional or strategically consequential. But ambiguity is difficult to judge without a history of engaging with ordinary cases.
 
-An AI system may draft the market analysis, but someone must still decide whether the market has been framed correctly. It may generate a customer segmentation, but a person must recognise whether those segments are commercially actionable or merely statistically tidy. It may recommend a strategy, but a leader must determine whether that strategy fits the organisation's capabilities, incentives, timing and appetite for risk.
+An AI system may draft a market analysis, but someone must still decide whether the market has been framed correctly, which assumptions matter and whether the recommendation makes sense in the context of the organisation.
 
 These are not finishing touches. They are the work.
 
@@ -111,7 +103,7 @@ Previous generations having endured a task is not a reason to preserve it.
 
 AI may, in fact, allow people to learn faster. A junior employee who once spent three days collecting information might now spend those days comparing interpretations, testing assumptions and discussing implications. They may encounter more problems, complete more learning cycles and gain access to expertise that was previously difficult to reach.
 
-There is evidence for this more optimistic possibility. In a [study](https://www.nber.org/papers/w31161) of 5,179 customer-support agents, researchers Erik Brynjolfsson, Danielle Li and Lindsey R. Raymond found that access to a generative AI assistant increased productivity by 14% on average and by 34% among novice and low-skilled workers. Their findings suggest that the system helped transmit some of the practices of stronger performers, enabling newer employees to become effective more quickly.
+There is evidence for this more optimistic possibility. In a [study](https://www.nber.org/papers/w31161) of 5,179 customer-support agents, Erik Brynjolfsson, Danielle Li and Lindsey R. Raymond found that access to a generative AI assistant increased productivity by 14% on average and by 34% among novice and low-skilled workers. The authors suggest that one reason may be that the system helped diffuse some of the practices of stronger performers, enabling newer employees to become effective more quickly.
 
 The finding complicates any simple story about AI bypassing learning. Under the right conditions, it may accelerate part of the learning curve instead.
 
@@ -131,7 +123,7 @@ The first employee gives the available information to an AI system and asks for 
 
 The second employee begins by examining a sample of the evidence and writing down an initial hypothesis. They identify what would have to be true for that hypothesis to hold and what evidence might disprove it. They then use AI to generate competing explanations, expose gaps and challenge their assumptions. Finally, they compare their conclusion with the system's, explain where their view changed and identify what remains uncertain.
 
-Both used AI. Both may produce a similar recommendation. But only one remained deeply involved in forming the judgment behind it.
+Both used AI. Both may produce a similar recommendation. But only one remains deeply involved in forming the judgment behind it.
 
 The distinction is not between human work and AI work. It is between assistance and substitution. One person used AI to extend and test their thinking. The other followed a workflow that allowed an interpretation to be supplied before they had formed one of their own.
 
@@ -141,7 +133,7 @@ The better question is not, "Who produced the output?" It is, "Who did the inter
 
 A [Microsoft Research study](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) involving 319 knowledge workers adds another layer to this concern. The researchers found that higher confidence in GenAI was associated with less reported critical thinking, while greater confidence in one’s own ability was associated with more. They also found that AI shifted critical effort away from producing material and towards verifying, integrating and overseeing its output. Because the study examined participants’ self-reported behaviour rather than directly measuring long-term capability, its findings should be treated cautiously.
 
-Even so, the result points to a possible vulnerability. People who do not yet possess a strong internal standard may find it harder to question a fluent, plausible answer, and may therefore be more likely to defer to it.
+Taken together, the findings point to a possible vulnerability. People who do not yet possess a strong internal standard may find it harder to question a fluent, plausible answer, and may therefore be more likely to defer to it.
 
 Experienced users already have a standard against which to compare the output. Beginners are still trying to build one.
 
@@ -153,25 +145,17 @@ In fact, the work may improve. Analyses may become more comprehensive, presentat
 
 But output quality and human capability are not the same thing.
 
-An employee can produce work above their unaided level because the system supplies part of the missing expertise. That is valuable. It may also make it harder to determine whether the employee is developing the ability to reproduce, adapt or challenge that reasoning when circumstances change.
+An employee can produce work above their unaided level because the system expands what they can access, analyse and produce. That is valuable. But it can also make it harder to see how much of the underlying reasoning the employee could reproduce, adapt or challenge when circumstances change.
 
 The deeper organisational problem may therefore emerge only later.
 
-For some time, companies will continue to rely on leaders who developed their judgment before AI became embedded in everyday work. These people can use the technology well because they understand the activities beneath it. They can detect a fragile model because they have built models. They can recognise shallow customer insight because they have spent time listening to customers. They can challenge a strategic recommendation because they have watched previous strategies collide with organisational reality.
+For some time, companies can rely on experienced practitioners who developed their judgment before AI became embedded in everyday work. AI may make those people considerably more productive because they already understand the work beneath the output.
 
-AI allows organisations to multiply the value of this accumulated expertise.
+But if fewer people accumulate the experiences that created that judgment, the leadership pipeline begins to change. An organisation could become steadily more efficient at producing work while becoming less effective at developing the people capable of leading it.
 
-But if fewer people pass through the experiences that created it, who replaces those leaders?
+The imbalance could remain hidden for years. The productivity gains arrive now, but any shortage of judgment arrives later, possibly only when experienced leaders begin to leave and there are fewer people ready to replace them.
 
-This is the risk I find most consequential. An organisation could become more efficient at producing work while becoming less effective at developing experienced people capable of leading it.
-
-The imbalance might remain hidden for years. Savings appear in the present, while a shortage of judgment appears in the future. By the time it becomes visible (in weaker decisions, shallow leadership benches or dependence on a small group of senior people) the apprenticeship that once replenished the system may already have eroded.
-
-Emerging labour-market research is beginning to examine whether AI adoption disproportionately affects junior employment, but the evidence is not yet settled. One recent [working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555), using résumé and job-posting data from US firms, finds that junior employment declines relative to senior employment following GenAI adoption. Another [working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6787638) argues that the apparent decline in early-career hiring is partly explained by the expansion of remote work, which makes junior employees more difficult and costly to supervise and develop.
-
-That uncertainty matters. We should not present the collapse of entry-level work as inevitable, or attribute every decline in junior hiring to AI.
-
-But organisations do not need certainty about job displacement to confront the capability question. Even if AI does not eliminate entry-level jobs, it may still remove enough of their developmental content to weaken the pathway from junior employee to experienced leader.
+And this problem does not require entry-level jobs to disappear. Even if organisations continue hiring junior employees, AI may remove enough of the developmental content of those roles to weaken the pathway from beginner to experienced leader.
 
 ## Do not protect the task. Protect the learning loop.
 
@@ -187,25 +171,19 @@ Managers also have a different role to play. In the past, an experienced colleag
 
 [McKinsey’s](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/building-expertise-in-the-age-of-ai-who-trains-the-next-generation) recent work on talent development argues that expertise in the AI era will require organisations to connect work design, learning, knowledge management and coaching rather than treating them as separate activities. It recommends mechanisms such as “attempt-then-check,” in which people engage with a problem before comparing their reasoning with AI or expert input.
 
-The principle I keep returning to is this: Do not protect the task. Protect the learning loop.
-
-Let AI perform the parts of the task it can do better. But preserve the cycle through which a person observes, interprets, decides, encounters consequences and reflects. Better still, use AI to make that cycle faster, richer and more deliberate.
+Let AI perform the parts of the task it can do better, while preserving the cycle through which a person observes, interprets, decides, encounters consequences and reflects. Better still, use AI to make that cycle faster, richer and more deliberate.
 
 ## Judgment may need to become an intentional outcome
 
 For a long time, organisations could treat expertise as a by-product of getting work done. Junior employees completed necessary tasks, experienced colleagues reviewed them, and capability gradually grew alongside output.
 
-AI may allow output to increase without capability developing at the same rate. A company can now produce more work without necessarily producing more understanding in the people supervising it. If that is true, judgment can no longer be left to emerge by accident. It must become an intentional outcome of work design.
+AI may separate those two outcomes. An organisation can now increase its output without necessarily increasing the understanding of the people producing and supervising it. If that is true, judgment can no longer be left to emerge by accident. It may need to become an intentional outcome of how work is designed.
 
-"How much time will this save?" remains relevant, but it is no longer sufficient. Leaders also need to ask what an employee will no longer see, attempt or experience. Which capability developed through that experience? Does it still matter? And if it does, how will the organisation develop it now?
+“How much time will this save?” remains a useful question. But it is no longer sufficient. Leaders also need to ask what an employee will no longer see, attempt or experience. What did that experience teach? Does that capability still matter? And if it does, how will it be developed now?
 
-These are not arguments against AI. They are questions about how work, learning and capability are being redesigned around it.
+I began this essay with a fairly simple concern: if AI does more of the analytical work given to early-career employees, perhaps those employees will have fewer opportunities to develop judgment.
 
-## What must a future leader still experience?
-
-I began with a fairly simple concern: if AI does more of the analytical work given to early-career employees, perhaps those employees will have fewer opportunities to develop judgment.
-
-The more I look at it, however, the less convinced I am that the proportion of the work performed by AI is the right measure.
+The more I look at it, however, the less convinced I am that the proportion of work performed by AI is the right measure.
 
 Some manual work teaches very little. Well-designed use of AI may expose a beginner to more problems, better examples and faster feedback than they would otherwise receive. The risk is not automation itself, just as the benefit is not automatic.
 
@@ -219,6 +197,6 @@ So perhaps the question for organisations is not whether AI should conduct the a
 
 The more important question is: What must a future leader still experience in order to judge the analysis well?
 
-Organisations that answer that question will have a better chance of gaining the productivity of AI while building stronger, more deliberate pathways to human expertise.
+Organisations that answer that question will be better placed to capture the productivity benefits of AI while building stronger, more deliberate pathways to human expertise.
 
 Those that do not may become extraordinarily efficient at producing answers, only to discover later that they are no longer developing enough people who know when those answers are wrong.

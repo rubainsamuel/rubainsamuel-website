@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>More Information, Better Decisions? | Rubain Samuel</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="The amount of information available to us and the accuracy of our judgment do not always improve at the same rate.">
+    <meta name="generator" content="Hugo 0.165.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.css"><link rel="stylesheet" href="/css/custom.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+<link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/more-data-dilemma/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/posts/more-data-dilemma/">
+	<meta property="og:site_name" content="Rubain Samuel">
+	<meta property="og:title" content="More Information, Better Decisions?">
+	<meta property="og:description" content="The amount of information available to us and the accuracy of our judgment do not always improve at the same rate.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-08-18T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-08-18T00:00:00+00:00">
+		<meta property="article:tag" content="Strategy">
+		<meta property="article:tag" content="Decision-Making">
+		<meta property="article:tag" content="Data">
+		<meta property="article:tag" content="AI">
+
+	<meta itemprop="name" content="More Information, Better Decisions?">
+	<meta itemprop="description" content="The amount of information available to us and the accuracy of our judgment do not always improve at the same rate.">
+	<meta itemprop="datePublished" content="2026-08-18T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-08-18T00:00:00+00:00">
+	<meta itemprop="wordCount" content="1169">
+	<meta itemprop="keywords" content="Strategy,Decision-Making,Data,AI">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="More Information, Better Decisions?">
+	<meta name="twitter:description" content="The amount of information available to us and the accuracy of our judgment do not always improve at the same rate.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-more-data-dilemma">
+   
+  <header>
+  <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Rubain Samuel
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/posts/" title="Essays page">
+              Essays
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<main class="pb7" role="main">
+  
+
+  <article class="page-more-data-dilemma flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">More Information, Better Decisions?</h1>
+      <p class="f4 fw3 mt2 mb2 dark-green lh-copy measure-wide">The amount of information available to us and the accuracy of our judgment do not always improve at the same rate.</p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-08-18T00:00:00Z">August 18, 2026</time>
+      
+
+      
+      
+        
+        
+        <span class="f6 mv4 dib tracked" style="color: #1D3124;"> | 6 min read</span>
+        
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p>The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.</p>
+<p>But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate. Sometimes additional information makes us considerably more confident while improving our decisions only marginally.</p>
+<p>That tension feels familiar to me.</p>
+<p>I have spent a good part of my career working with and leading data and insights teams, and I have seen repeatedly how valuable better information can be. A different cut of the data can expose a false assumption, reveal a customer behaviour we had missed or completely change the way a problem is understood.</p>
+<p>But I have also seen the other side of it.</p>
+<p>Sometimes an analysis becomes richer without the decision becoming much clearer. We add another segment, build another model or commission another piece of research, and gradually the explanation becomes more detailed and the room more confident, even though the uncertainty at the heart of the decision has barely moved.</p>
+<p>That distinction has become harder for me to ignore as AI enters more of the analytical process. We can now interrogate datasets, synthesise research, identify patterns, generate explanations and even produce recommendations in a fraction of the time those activities once required. Information is becoming easier to obtain, and interpretation easier to produce.
+It seems reasonable to expect that this should lead to better decisions.</p>
+<p>But does it?</p>
+<p>More than sixty years ago, psychologist Stuart Oskamp conducted an <a href="https://faculty.fortlewis.edu/burke_b/Senior/BLINK%20replication/Overconfidence.pdf">experiment</a> that captured the problem unusually clearly. Participants, including clinical psychologists, received a case study in stages and were asked to make judgments about the person it described. As they received more information, their confidence in those judgments rose steadily. Their accuracy, however, improved much less and quickly approached a ceiling.</p>
+<p>Later <a href="https://www.sciencedirect.com/science/article/abs/pii/S0749597808000460">research</a> by Claire Tsai, Joshua Klayman and Reid Hastie found a similar pattern across three experiments. Additional judgment-relevant information could improve accuracy, but confidence increased more rapidly, creating a growing gap between how certain people felt and how accurate their judgments actually were.</p>
+<p>That is what makes the phenomenon interesting. The problem is not simply that information fails to help. Often it does help. The problem is that our confidence in what the information has told us can grow faster than the quality of the judgment itself.</p>
+<p>Perhaps more information does two things at once. It can improve our understanding of the world, but it can also improve the story we are able to tell ourselves about our understanding.</p>
+<p>Those are not necessarily the same thing.</p>
+<h2 id="more-information-makes-the-story-feel-more-complete">More information makes the story feel more complete</h2>
+<p>Information rarely arrives into an empty mind.</p>
+<p>By the time we ask for another analysis, we usually have some sense of what might be happening. Sales may be slowing because the price is too high; a campaign may be underperforming because the creative is weak; customers may be leaving because the product is missing a particular feature; a market may look attractive because demand appears to be growing.</p>
+<p>At first, these are hypotheses. But as information accumulates, something subtle can happen: the hypothesis begins organising the evidence around itself. A customer comment, a competitor move or a particular cut of the data appears consistent with the emerging explanation, while evidence that does not fit can begin to look like an exception. Gradually, what started as one possible explanation can start to feel like the explanation.</p>
+<p>Recent <a href="https://www.cambridge.org/core/journals/judgment-and-decision-making/article/information-distortion-as-a-source-of-overconfidence-in-managerial-decisions/4D60A83508DDE77A6E8EDEB8BFF17E53">research</a> by Peter J. Boyle and Pete Nye provides an interesting example of this in a business setting. In a realistic managerial decision task, participants with business experience received information sequentially while the researchers tracked both how that information was interpreted and how confident participants became. Once one option began to lead, subsequent information tended to be evaluated as more supportive of that option than the evidence itself justified, and confidence increased alongside that distortion. Importantly, the pattern could emerge even when participants had no strong preference at the beginning.</p>
+<p>That matters because we tend to imagine new information as something that tests an existing belief. Often it does, but the relationship can also run in the other direction: once a belief begins to take shape, it can influence how subsequent information is interpreted.</p>
+<p>I have seen versions of this play out in analytics work. An initial explanation begins to gain momentum and, as more analysis is added, the account of what is happening becomes increasingly sophisticated. Soon there are numbers, charts, segments and historical comparisons supporting a coherent view of the problem.</p>
+<p>The analysis may genuinely be getting better. But there is another possibility worth noticing: we may also be getting better at explaining the evidence through the story we already have.
+That is an uncomfortable distinction, because coherence is persuasive. A fragmented collection of observations feels uncertain. A story that connects those observations feels like understanding, and the more evidence the story can absorb, the more convincing it becomes.</p>
+<p>Yet a theory&rsquo;s ability to accommodate more evidence is not automatically proof that the theory is becoming more accurate. Sometimes it simply means that the explanation has become flexible enough to account for almost anything.</p>
+<p>This may be one reason information can increase confidence faster than accuracy. More information can make a hypothesis easier to explain without making it more likely to be true. And AI could amplify this tendency in an interesting way.</p>
+<p>It does not merely make information more accessible. It makes information extraordinarily easy to turn into a coherent narrative. Give an AI system a dataset and a hypothesis and it can surface patterns that appear to support it. Give it contradictory evidence and it can often reconcile the pieces into a neat synthesis within seconds.</p>
+<p>That capability is genuinely useful. But it also changes the economics of explanation. Plausible narratives that once required hours of analysis can now be generated almost instantly.</p>
+<p>A recent <a href="https://arxiv.org/abs/2606.29251">preprint</a> by Hoyoung Lee and a large group of collaborators explored one version of this problem in financial analysis. The researchers examined what happened when large language models compressed financial filings and earnings-call transcripts before those summaries were used in downstream investment decisions. They found that the resulting summaries could remain fluent and factually plausible while still altering the decision supported by the original source. One reason was decontextualisation: important evidence survived the summary, but the caveats or surrounding context needed to interpret it correctly did not.</p>
+<p>That distinction feels increasingly important.</p>
+<p>AI can make an explanation clearer without necessarily making the underlying evidence clearer.</p>
+<p>And if coherence itself contributes to confidence, then the ability to generate coherent explanations cheaply may make it easier to mistake a plausible interpretation for a reliable one.</p>
+<p>The question, then, is not simply whether we have more information. It is whether the additional information is testing our explanation, or merely making it easier to believe.</p>
+<ul class="pa0">
+  
+</ul><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/strategy/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Strategy</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/decision-making/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Decision-Making</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/data/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Data</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/ai/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">AI</a>
+   </li>
+  
+</ul>
+
+      
+    </div></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Rubain Samuel 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

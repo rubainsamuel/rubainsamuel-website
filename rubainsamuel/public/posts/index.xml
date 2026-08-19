@@ -10,13 +10,13 @@
 		
 		
 		
-			<lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>More Information, Better Decisions?</title>
+				<title>Why Does More Information Make Us Feel More Certain Without Making Us More Right?</title>
 				<link>http://localhost:1313/posts/more-data-dilemma/</link>
-				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/posts/more-data-dilemma/</guid>
 				<description>&lt;p&gt;The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.&lt;/p&gt;&#xA;&lt;p&gt;But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate. Sometimes additional information makes us considerably more confident while improving our decisions only marginally.&lt;/p&gt;</description>
 			</item>

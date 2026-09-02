@@ -1,22 +1,18 @@
 ---
 title: "Why Does More Information Make Us Feel More Certain Without Making Us More Right?"
-date: 2026-08-19
-description: "As information and explanation become abundant, judgment depends increasingly on knowing which evidence genuinely improves a decision."
+date: 2026-08-31
+description: "What data, judgment and AI reveal about the uneasy relationship between knowing more and making better decisions."
 tags: ["strategy", "decision-making", "data", "AI"]
 draft: false
 ---
 
 The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.
 
-But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate. Sometimes additional information makes us considerably more confident while improving our decisions only marginally.
+But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate.
 
-That tension feels familiar to me. I have spent a good part of my career working with and leading data and insights teams, where I have seen better information expose false assumptions, reveal hidden customer behaviour and completely change how a problem is understood. But I have also seen analyses become richer without decisions becoming much clearer: another segment is added, another model built, another piece of research commissioned, and the explanation becomes more detailed while the uncertainty at the heart of the decision barely moves.
+That tension feels familiar to me. I have spent a good part of my career working with and leading data and insights teams, where I have seen better information expose false assumptions, reveal hidden customer behaviour and completely change how a problem is understood. But I have also seen analyses become richer without decisions becoming much clearer: another segment added, another model, another piece of research, and the explanation becomes more detailed while the uncertainty at the heart of the decision barely moves.
 
 That distinction has become harder for me to ignore as AI enters more of the analytical process. We can now interrogate datasets, synthesise research, identify patterns, generate explanations and even produce recommendations in a fraction of the time those activities once required. Information is becoming easier to obtain, and interpretation easier to produce.
-
-It seems reasonable to expect that this should lead to better decisions.
-
-But does it?
 
 More than sixty years ago, psychologist Stuart Oskamp conducted an [experiment](https://faculty.fortlewis.edu/burke_b/Senior/BLINK%20replication/Overconfidence.pdf) that captured the problem unusually clearly. Participants, including clinical psychologists, received a case study in stages and were asked to make judgments about the person it described. As they received more information, their confidence rose steadily, while their accuracy improved much less and quickly approached a ceiling.
 
@@ -36,28 +32,23 @@ At first, these are hypotheses. But as information accumulates, something subtle
 
 Recent [research](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/information-distortion-as-a-source-of-overconfidence-in-managerial-decisions/4D60A83508DDE77A6E8EDEB8BFF17E53) by Peter J. Boyle and Pete Nye provides an interesting example of this in a business setting. In a managerial decision task, once one option began to lead, participants increasingly interpreted subsequent information as supporting it, and confidence rose alongside that distortion. The pattern could emerge even when people began without a strong preference.
 
-That matters because we tend to imagine new information as something that tests an existing belief. Often it does, but the relationship can also run in the other direction: once a belief begins to take shape, it can influence how subsequent information is interpreted.
+I have seen versions of this play out in analytics work. An initial explanation begins to gain momentum and, as more analysis is added, numbers, segments and historical comparisons start to organise themselves around a coherent account of the problem. The analysis may genuinely be improving, but the emerging story is also beginning to shape how subsequent evidence is interpreted.
 
-I have seen versions of this play out in analytics work. An initial explanation begins to gain momentum and, as more analysis is added, the account of what is happening becomes increasingly sophisticated. Soon there are numbers, charts, segments and historical comparisons supporting a coherent view of the problem.
-
-The analysis may genuinely be getting better. But there is another possibility worth noticing: we may also be getting better at explaining the evidence through the story we already have. That is an uncomfortable distinction because coherence is persuasive. A fragmented collection of observations feels uncertain; a story that connects them feels like understanding, and the more evidence the story can absorb, the more convincing it becomes.
+That is what makes coherence persuasive. A fragmented collection of observations feels uncertain, but a story that connects them feels like understanding, and the more evidence the story can absorb, the more convincing it becomes.
 
 Yet a theory's ability to accommodate more evidence is not automatically proof that it is becoming more accurate. Sometimes it simply means the explanation has become flexible enough to account for almost anything.
 
 This may be one reason information can increase confidence faster than accuracy. More information can make a hypothesis easier to explain without making it more likely to be true.
-AI could amplify this tendency in an interesting way.
 
 AI makes information more accessible and, just as importantly, extraordinarily easy to organise into a coherent narrative. Give an AI system a dataset and a hypothesis and it can surface patterns that appear to support it. Give it contradictory evidence and it can often reconcile the pieces into a neat synthesis within seconds.
 
 That capability is genuinely useful. But it also changes the economics of explanation. Plausible narratives that once required hours of analysis can now be generated almost instantly.
 
-A recent [preprint](https://arxiv.org/abs/2606.29251) by Hoyoung Lee and collaborators explored one version of this problem in financial analysis. They found that AI-generated summaries of financial filings and earnings calls could remain fluent and factually plausible while still losing context in ways that affected downstream investment decisions.
+A recent [preprint](https://arxiv.org/abs/2606.29251) by Hoyoung Lee and collaborators explored one version of this problem in financial analysis. They found that AI-generated summaries of financial filings and earnings calls could remain fluent and factually plausible while omitting context that mattered to downstream investment decisions. The summary could therefore become easier to read and reason from while preserving less of the information needed to make a good judgment.
 
-AI can make an explanation clearer without necessarily making the underlying evidence clearer.
+That distinction matters here. AI can reduce the complexity of evidence and make an interpretation feel more coherent, but compression can also strip away signals of uncertainty, qualification or context that should influence the decision. The result may feel like greater understanding even when some of the evidence needed for judgment has been lost.
 
-And if coherence itself contributes to confidence, then the ability to generate coherent explanations cheaply may make it easier to mistake a plausible interpretation for a reliable one.
-
-A useful test is to ask what the additional information is doing to our explanation. Is it putting the explanation under pressure, or giving us more reasons to believe it?
+A useful test is to ask what the additional information is actually doing. Does it discriminate between competing explanations, challenge an important assumption, or simply add support to the story we already have?
 
 ## We confuse more information with more useful information
 
@@ -66,8 +57,6 @@ Even when additional information tests our explanation, another question remains
 A piece of information can feel highly relevant to a decision without having much power to change it. We might want another customer survey, a more detailed forecast or one more cut of the data because each appears connected to the problem. But connection alone does not make information valuable.
 
 Decision theory offers a useful distinction here. Information has value when learning it could lead us to make a better choice. That suggests a simple question before requesting more analysis: What would we need to learn for us to do something differently?
-
-I have seen situations where analysis kept expanding even though it was difficult to describe any plausible result that would have changed the decision. In those cases, the additional work may still have increased our understanding, but it is less clear that it improved the choice.
 
 Psychologists Anthony Bastardi and Eldar Shafir explored a related tendency in [experiments](https://bear.warrington.ufl.edu/brenner/mar7588/Papers/bastardi-jpsp1998.pdf) on what they called noninstrumental information: information that appears relevant to a choice but should not actually affect it. Participants were often willing to delay a decision to obtain such information, and having waited for it, tended to give it weight in the decision anyway.
 
@@ -79,7 +68,7 @@ The first problem is informational. The second is psychological.
 
 More analysis can also serve other purposes: building consensus, making a recommendation easier to defend or giving a decision greater legitimacy. Those functions are real, but they are different from reducing uncertainty. The problem begins when we mistake evidence gathered to create alignment or defensibility for evidence that materially improves the decision.
 
-AI makes the distinction more important because the cost of additional analysis is falling rapidly. We can ask for another scenario, interpretation or supporting argument almost instantly. That is useful, but it also removes one of the natural constraints on how long we keep analysing.
+AI makes this distinction more important because the cost of producing additional analysis is falling rapidly. We can ask for another scenario, interpretation or supporting argument almost instantly. The benefit is obvious: genuinely useful evidence becomes easier to obtain. The risk is that analysis can keep expanding after the decision-relevant uncertainty has stopped shrinking, because there is very little friction telling us when another answer is no longer adding much value.
 
 There is always another question to ask. At some point, though, strategy requires making a decision under uncertainty rather than eliminating uncertainty altogether.
 
@@ -97,15 +86,11 @@ Crystal Hall, Lynn Ariss and Alexander Todorov demonstrated this in a series of 
 
 The information was real. It was relevant to the subject. It simply was not as useful for the prediction as people believed.
 
-I have seen a similar problem in analytics, although in a less controlled form. Different metrics, customer segments or research sources can appear to provide independent confirmation while actually reflecting much of the same underlying behaviour. We can end up counting the same signal several times because it reaches us through different measures.
-
-The number of data points is not the same as the number of independent pieces of evidence.
-
-Sometimes what looks like triangulation is the same signal reflected through several mirrors.
+I have seen a similar problem in analytics, although in a less controlled form. Different metrics, customer segments or research sources can appear to provide independent confirmation while actually reflecting much of the same underlying behaviour. We can end up counting the same signal several times because it reaches us through different measures. What looks like triangulation may simply be the same signal reflected through several mirrors.
 
 ## More information gives us more ways to explain ourselves into being right
 
-And once enough of those signals accumulate, they give us something else: more material from which to explain what happened.
+As the number of signals grows, so does the number of plausible stories we can construct about what happened.
 
 Anyone who has worked with models knows the danger of overfitting. A model can fit the historical data extremely well and still perform poorly when it encounters something new. I wonder if our explanations can sometimes behave in a similar way.
 
@@ -113,17 +98,17 @@ With enough variables, customer segments, anecdotes and contextual detail, almos
 
 I think of this as narrative overfitting. It is an analogy rather than an established psychological term, but the distinction it points to matters: an explanation can fit what has already happened without necessarily helping us understand what will happen next.
 
-Statistician Galit Shmueli in her paper “[To Explain or to Predict?](https://projecteuclid.org/journals/statistical-science/volume-25/issue-3/To-Explain-or-to-Predict/10.1214/10-STS330.pdf),” draws an important distinction between explanation and prediction. A model that explains observed data well is not necessarily the model that predicts unseen outcomes best; the two are different goals and can require different approaches. 
+In her paper '[To Explain or to Predict?](https://projecteuclid.org/journals/statistical-science/volume-25/issue-3/To-Explain-or-to-Predict/10.1214/10-STS330.pdf)', statistician Galit Shmueli draws an important distinction between explanation and prediction. A model that explains observed data well is not necessarily the model that predicts unseen outcomes best; the two are different goals and can require different approaches.
 
 Human judgment has its own version of this problem. Baruch Fischhoff’s classic [work](https://psycnet.apa.org/fulltext/2025-76722-001.html) on hindsight showed that once people know how an event turned out, the outcome can appear more predictable than it did beforehand. Knowing what happened changes how we interpret the evidence that came before it.
 
-That matters in strategy because explaining the past and deciding under uncertainty are not the same task. A detailed account of why a market changed may be entirely plausible, but a harder test is whether the same reasoning would have helped us anticipate the change before we knew the outcome.
+That matters in strategy because explaining the past and deciding under uncertainty are not the same task. A detailed account of why a market changed may be entirely plausible, but a harder test is whether the same reasoning would have helped us anticipate the change before we knew the outcome, and whether the underlying relationships are likely to hold in the future.
 
-AI makes this tension more pronounced. It can generate plausible causal stories, reconcile contradictory evidence and produce alternative explanations almost instantly. That can be genuinely useful for exploration. But it also means the supply of convincing explanations is becoming effectively unlimited.
+AI adds another dimension to this problem by making alternative explanations extraordinarily cheap to generate. For the same outcome, we can now produce multiple plausible accounts, each supported by different patterns, assumptions or pieces of evidence. That is useful for exploration, but it also raises the bar for what should count as a convincing explanation: plausibility alone tells us less when plausible stories are abundant.
 
 When explanations are cheap, coherence alone becomes weaker evidence of understanding.
 
-What seems to connect these problems is that information can do two different things. It can improve our model of reality, or it can increase our confidence in the model we already have. Often it does both. The difficulty is that, from inside the decision, the two can feel remarkably similar.
+Across these examples, the same distinction keeps resurfacing. Information can improve our model of reality, but it can also increase our confidence in the model we already have. From inside the decision, those two effects can feel remarkably similar.
 
 ## Confidence and accuracy come from different places
 
@@ -141,47 +126,34 @@ Yet we may feel just as confident in both environments.
 
 AI adds another complication. It can make an analysis feel more comprehensive, an argument more coherent and a recommendation more polished. All of those things can increase our sense that the problem has been understood, even when the underlying environment remains difficult to predict.
 
-The question may therefore be less, “How confident are we?” and more, “What has earned that confidence?”
+The more useful question may be what has earned our confidence. Have we made similar judgments before, received meaningful feedback and worked in an environment stable enough for experience to teach us something about the future?
 
-Have we made similar judgments before? Did we receive meaningful feedback? Is the environment stable enough for past experience to teach us something about the future?
+Confidence built under those conditions is very different from confidence that comes from a compelling explanation alone. The two may feel similar from inside the decision, even when reality treats them very differently.
 
-Confidence built under those conditions is very different from confidence that comes from having a compelling explanation.
-
-The two may feel identical from the inside. Reality does not necessarily treat them that way.
 
 ## So when does more information actually help?
 
-There is an obvious danger in taking this argument too far.
+There is an obvious danger in taking this argument too far. More information is often exactly what improves a decision. Better data can reveal a false assumption, expose a hidden pattern, establish a useful base rate or show that an apparently simple problem behaves differently across customers, markets or contexts.
 
-More information is often exactly what improves a decision. Better data can reveal a false assumption, expose a hidden pattern, establish a useful base rate or show that an apparently simple problem behaves differently across customers, markets or contexts.
-
-None of this means that less information is inherently better.
-
-[Research](https://journals.aom.org/doi/10.5465/amj.2018.0172) by Shenghua Luan, Jochen Reb and Gerd Gigerenzer on managerial decision-making under uncertainty is useful here because it challenges the assumption that processing more information necessarily produces better judgments. In their work on personnel selection, a relatively simple heuristic that used fewer cues could outperform a more complex statistical approach under certain conditions. The broader lesson is that the value of information depends on how well the decision strategy fits the structure of the problem.
-
-The same is true in business. Sometimes another customer segment reveals something the average concealed. Another variable explains an anomaly. A larger sample overturns an intuition that looked persuasive only because the evidence was thin.
+[Research](https://journals.aom.org/doi/10.5465/amj.2018.0172) by Shenghua Luan, Jochen Reb and Gerd Gigerenzer on managerial decision-making under uncertainty is useful here because it shows that the value of information depends on the structure of the problem. In their work on personnel selection, a relatively simple heuristic using fewer cues could outperform a more complex statistical approach under certain conditions. In other situations, another customer segment, variable or larger sample can reveal something the existing evidence missed.
 
 AI can strengthen this side of the equation too. It can inspect volumes of information that would previously have been impractical to analyse, surface outliers, compare alternative explanations and make sophisticated analytical techniques more accessible. Used that way, additional information can genuinely challenge our current model rather than simply decorate it.
 
 What matters is the effect the information has on the relationship between our beliefs and reality. Some evidence improves that relationship, other evidence mainly increases our confidence in the beliefs we already hold.
 
-The harder question is how to tell which kind we are getting.
-
 ## What changes when information becomes abundant?
 
-For much of modern business, obtaining and analysing information imposed real constraints. Research took time, analysis required specialist skills, and answering another question often meant waiting days or weeks.
+Historically, obtaining and analysing information imposed real constraints on business decisions. Research took time, analysis required specialist skills, and answering another question often meant waiting days or weeks.
 
-AI is reducing many of those constraints quickly. We can now ask for another interpretation, scenario, comparison or explanation almost immediately. The cost of producing analysis is falling, and with it the friction that once forced us to decide when we had enough.
+AI is reducing many of those constraints quickly. We can now ask for another interpretation or explanation almost immediately. The cost of producing analysis is falling, and with it the friction that once forced us to decide when we had enough.
 
-That should create enormous value. But it may also shift the bottleneck.
+That should create enormous value, while also shifting the bottleneck.
 
-When information was expensive, getting more of it was often the obvious route to a better decision. When information becomes abundant, the harder problem may be deciding what deserves attention, what deserves belief and what deserves to change our minds.
+When obtaining and analysing information required more time and effort, those costs created natural limits on how much analysis could be done. As those limits fall, the harder problem becomes deciding which information deserves attention, which deserves belief and which should actually change the decision.
 
 Early [research](https://www.microsoft.com/en-us/research/publication/effects-of-llm-based-search-on-decision-making-speed-accuracy-and-overreliance/) on AI-assisted decision-making illustrates both sides of that shift. In two experiments comparing LLM-based search with traditional search, researchers at Microsoft found that people using LLM-based search completed tasks faster and reported a more satisfying experience. But when the system provided incorrect information, users were also more likely to rely on it, reducing decision accuracy.
 
 That tension feels important. AI can dramatically improve our ability to find and process information without necessarily improving our ability to judge every piece of it.
-
-In some ways, it reverses an old problem. The difficulty used to be finding enough information to form a view. Increasingly, the difficulty may be maintaining enough discipline to decide which information should influence that view.
 
 Instead of asking AI only to help us complete the picture, we can also ask it to make the picture harder to believe: What evidence contradicts this explanation? What base rate are we ignoring? Which assumptions are doing most of the work? What would have to be true for the opposite conclusion to hold?
 
@@ -193,21 +165,14 @@ As answers become easier to produce, the advantage may shift towards knowing whi
 
 I began with a simple question: why can more information make us feel more certain without making us more right?
 
-The more I have thought about this question, the more important the quality and purpose of information seem to become. Better information can improve decisions enormously. Yet the same accumulation of evidence can also make explanations more coherent, models more elaborate and confidence stronger, even when understanding improves much less.
+The more I have thought about this question, the more important the quality and purpose of information seem to become. Better information can improve decisions enormously. Yet the accumulation of evidence can also make explanations more coherent, models more elaborate and confidence stronger, while understanding improves much less.
 
 Those effects are easy to confuse because, from inside the decision, they often feel the same.
 
 Having spent years around data and insights, I come away from this wanting analysis to work harder. A fuller picture or a more defensible recommendation has value, but the deeper test is whether the analysis improves the connection between what we believe and what is actually true.
 
-AI makes that discipline more important because it removes much of the friction from finding information and turning it into an answer. We can produce more analysis, more interpretations and more plausible explanations than ever before. That is a remarkable capability. But abundance does not remove the need for judgment. In some ways, it makes judgment more consequential.
+AI makes that discipline more important by making information and explanation much easier to produce. The challenge is increasingly to decide what deserves weight, what deserves doubt and what should genuinely change our view.
 
-When information was difficult to obtain, knowing more could itself be an advantage. As information becomes easier to access and explanations easier to generate, the greater advantage may lie in knowing what deserves weight, what deserves doubt and what would genuinely cause us to change our minds.
+So before asking whether we have enough information to make a decision, it may be worth asking a harder question: what evidence would genuinely cause us to change our mind?
 
-So before asking whether we have enough information to make a decision, it may be worth asking something harder:
-
-What evidence would genuinely cause us to change our mind?
-
-If we cannot answer that, more information may still make us feel more certain.
-
-It is less clear that it will make us more right.
-
+If we cannot answer that, more information may make us more certain without making us more right.

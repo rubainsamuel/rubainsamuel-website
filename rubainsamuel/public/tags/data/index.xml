@@ -10,15 +10,15 @@
 		
 		
 		
-			<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Why Does More Information Make Us Feel More Certain Without Making Us More Right?</title>
 				<link>http://localhost:1313/posts/more-data-dilemma/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/posts/more-data-dilemma/</guid>
-				<description>&lt;p&gt;The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.&lt;/p&gt;&#xA;&lt;p&gt;But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate. Sometimes additional information makes us considerably more confident while improving our decisions only marginally.&lt;/p&gt;</description>
+				<description>&lt;p&gt;The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.&lt;/p&gt;&#xA;&lt;p&gt;But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate.&lt;/p&gt;&#xA;&lt;p&gt;That tension feels familiar to me. I have spent a good part of my career working with and leading data and insights teams, where I have seen better information expose false assumptions, reveal hidden customer behaviour and completely change how a problem is understood. But I have also seen analyses become richer without decisions becoming much clearer: another segment added, another model, another piece of research, and the explanation becomes more detailed while the uncertainty at the heart of the decision barely moves.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

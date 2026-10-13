@@ -1,1 +1,39 @@
 <meta name="google-site-verification" content="paTFxDNHVM2Tvy8602wfVPF4_4uyQk8dE4VhSsQ8HRU" />
+
+{{ if .IsHome }}
+{{ $person := dict
+  "@type" "Person"
+  "@id" "https://rubainsamuel.com/#person"
+  "name" "Rubain Samuel"
+  "url" "https://rubainsamuel.com/"
+  "jobTitle" "Marketing strategy leader"
+  "description" "Writes about strategy, marketing, technology and the questions that sit between them."
+  "sameAs" (collections.Slice "https://www.linkedin.com/in/rubain-samuel")
+}}
+{{ $website := dict
+  "@type" "WebSite"
+  "@id" "https://rubainsamuel.com/#website"
+  "name" "Rubain Samuel"
+  "url" "https://rubainsamuel.com/"
+  "publisher" (dict "@id" "https://rubainsamuel.com/#person")
+}}
+{{ $graph := dict "@context" "https://schema.org" "@graph" (collections.Slice $person $website) }}
+<script type="application/ld+json">{{ $graph | encoding.Jsonify | safe.JS }}</script>
+{{ end }}
+
+{{ if and .IsPage (eq .Section "posts") }}
+{{ $article := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "headline" .Title
+  "description" .Params.description
+  "url" .Permalink
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "keywords" (collections.Delimit .Params.tags ", ")
+  "author" (dict "@type" "Person" "name" "Rubain Samuel" "url" "https://rubainsamuel.com/")
+  "publisher" (dict "@type" "Person" "name" "Rubain Samuel" "url" "https://rubainsamuel.com/")
+}}
+<script type="application/ld+json">{{ $article | encoding.Jsonify | safe.JS }}</script>
+{{ end }}

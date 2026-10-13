@@ -10,35 +10,42 @@
 		
 		
 		
-			<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>AI</title>
-				<link>http://localhost:1313/tags/ai/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai/</guid>
+				<title>Agency</title>
+				<link>http://localhost:1313/tags/agency/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/agency/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Data</title>
-				<link>http://localhost:1313/tags/data/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/data/</guid>
+				<title>AI</title>
+				<link>http://localhost:1313/tags/ai/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Decision-Making</title>
 				<link>http://localhost:1313/tags/decision-making/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/tags/decision-making/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Strategy</title>
 				<link>http://localhost:1313/tags/strategy/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/tags/strategy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Data</title>
+				<link>http://localhost:1313/tags/data/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/data/</guid>
 				<description></description>
 			</item>
 			<item>

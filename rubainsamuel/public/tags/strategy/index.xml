@@ -10,15 +10,22 @@
 		
 		
 		
-			<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>What Happens to Our Agency When Agents Do More of the Work?</title>
+				<link>http://localhost:1313/posts/agency-and-ai-agents/</link>
+				<pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/agency-and-ai-agents/</guid>
+				<description>&lt;p&gt;I was recently working on an ideal customer profile for a large company whose clients span regions, industries and sizes. A conventional ICP felt too blunt for the business. The challenge was to make it specific enough to guide decisions without forcing a varied customer base into an artificially narrow definition.&lt;/p&gt;&#xA;&lt;p&gt;Partly out of curiosity, and partly to see how well an agent could handle the problem, I gave my analysis and some of the underlying data to Claude Cowork. I asked it to analyse the patterns and develop a model that captured what made the best customers valuable without defining the profile too narrowly. After several hours and a few rounds of iteration, it came back with something quite convincing.&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>Why Does More Information Make Us Feel More Certain Without Making Us More Right?</title>
 				<link>http://localhost:1313/posts/more-data-dilemma/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/posts/more-data-dilemma/</guid>
-				<description>&lt;p&gt;The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.&lt;/p&gt;&#xA;&lt;p&gt;But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate. Sometimes additional information makes us considerably more confident while improving our decisions only marginally.&lt;/p&gt;</description>
+				<description>&lt;p&gt;The idea that more information should lead to better decisions feels almost self-evident. If we know more about a problem, surely we should understand it better. And in many situations, we do.&lt;/p&gt;&#xA;&lt;p&gt;But psychologists have been studying a complication to that assumption for decades: the amount of information available to us and the accuracy of our judgment do not always improve at the same rate.&lt;/p&gt;&#xA;&lt;p&gt;That tension feels familiar to me. I have spent a good part of my career working with and leading data and insights teams, where I have seen better information expose false assumptions, reveal hidden customer behaviour and completely change how a problem is understood. But I have also seen analyses become richer without decisions becoming much clearer: another segment added, another model, another piece of research, and the explanation becomes more detailed while the uncertainty at the heart of the decision barely moves.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>How Will Tomorrow&#39;s Leaders Develop Strategic Judgment If AI Does the Work They Once Learned From?</title>
